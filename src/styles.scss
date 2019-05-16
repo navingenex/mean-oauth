@@ -1,1 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+@import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+
+// partials
+@import './assets/scss/partials/layout.vars';
+@import './assets/scss/partials/responsive.partial';
+
+// global styles
+@import './assets/scss/base';
